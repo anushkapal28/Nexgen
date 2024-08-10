@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Philosopher&display=swap');
+@font-face {
+    font-family: domaine;
+    src: url(/src/assets/font/Domaine\ Sans\ Fine\ Regular\ Regular.woff);
+}
+.contact{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    font-family: 'Albert Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+  .selectser{
+    color: white;
+  }
+  
+.contact .section-header {
+    margin-bottom: 50px;
+    text-align: center;
+    
+  }
+  
+  .contact .section-header h2 {
+    color: #e20001;
+    text-transform: uppercase;
+    font-size: 5vw;
+    margin-bottom: 2vw; 
+    margin-top: -10px;
+    padding-top: 12vw;
+  }
+  
+  .contact .section-header p {
+    color: #fff;
+    font-size: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .contact .row  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+  }
+  
+  .contact .contact-info {
+    width: 50%;
+  }
+  
+  .contact .contact-info-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .contact .contact-info-icon {
+    height: 3vw;
+    width: 3vw;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 3vw;
+    padding: 1vw 1vw;
+  }
+  .contact .contact-info-icon > svg {
+    color: #333; 
+  }
+  
+  .contact .contact-info-content {
+    margin-left: 4vw;
+  }
+  
+  .contact .contact-info-content h4 {
+    color: #1da9c0;
+    font-size: 2vw;
+    margin-top: 3px;
+    margin-bottom: -10px;
+  }
+  
+  .contact .contact-info-content p {
+    color: #fff;
+    font-size: 1.2vw;
+    
+  }
+  
+  .contact .contact-form {
+    background-color: #131212;
+    padding: 40px;
+    width: 45%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: inset;
+    transition: box-shadow 0.3s;
+  }
+  .contact .contact-form:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 188, 212, 0.7); 
+  }
+  
+  
+  .contact .contact-form h2 {
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact .contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .contact .contact-form .input-box input,
+  .contact .contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact .contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  .contact  #selectService{
+    width: 100%;
+    margin: 5px 0px;
+  }
+  
+  .contact  .contact-form .input-box input:focus ~ span,
+  .contact .contact-form .input-box textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  .contact .contact-form .input-box input[type="submit"]
+  {
+    width: 100%;
+    background: #00bcd4;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #00bcd4;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  .contact .contact-form .input-box input[type="submit"]:hover
+  {
+    background: #FFF;
+    color: #00bcd4;
+  }
+  
+  @media (max-width: 991px) {
+    section {
+      padding-top: 70px;
+      padding-bottom: 50px;
+    }
+    
+    .contact .row {
+      flex-direction: column;
+      padding-left: 5%;
+      margin-top: -30px;
+    }
+    
+    .contact .contact-info {
+      margin-bottom: 20px;
+      margin-left: 10%;
+    }
+    
+    .contact  .contact-form {
+      width: 50%;
+    }
+    .contact  .contact-info-content h4 {
+      font-size: 4vw;
+      margin-top: -1px;
+      margin-bottom: 15px;
+    }
+    
+    .contact  .contact-info-content p {
+      color: #fff;
+      font-size: 2.5vw;
+      margin-top: -10px;
+    }
+  .contact  .contact-form h2 {
+      font-size: 6vw;
+    }
+  }

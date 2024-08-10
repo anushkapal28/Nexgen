@@ -1,0 +1,102 @@
+.signup .password-container {
+    margin-bottom: 15px;
+  }
+  
+  .signup .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .signup {
+    height: 110vh;
+    overflow: hidden;
+  font-family: 'Albert Sans', sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  }
+  
+  .signup .container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .signup .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .signup .col-6 {
+    flex: 1;
+    min-width: 300px;
+    
+  }
+  
+  .signup .form-container {
+    padding: 40px;
+    
+  }
+  
+  .signup .form-content {
+    max-width: 400px;
+    margin: auto;
+    padding-top: 90px;
+  }
+  
+  .signup .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .signup .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .signup .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup .register-link,
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup .register-link:hover,
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signup .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 576px) {
+    .signup .image-container {
+      display: none;
+    }
+  }
+  
+  

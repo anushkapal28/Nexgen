@@ -1,0 +1,113 @@
+/* Login.css */
+.login{
+  overflow-x: hidden;
+  font-family: 'Albert Sans', sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    
+}
+.login .container {
+    display: flex;
+    height: 110vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login   .row {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .login  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .login  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .login  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .login  .h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .login   .form-content {
+    width: 75%;
+  }
+  
+  .login   .title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+    
+  }
+  
+  .login   .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .login  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .login  .btn:hover {
+    background-color: #138496;
+  }
+  
+  .login  .forgot-password, .register-link {
+    color: #17a2b8;
+  }
+  
+  .login  .image-container {
+    display: none;
+  }
+  
+  .login  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+  
+  @media (min-width: 576px) {
+    .login  .image-container {
+      display: block;
+    }
+  }
+  
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .registert{
+    color: white;
+  }

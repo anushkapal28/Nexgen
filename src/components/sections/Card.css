@@ -1,0 +1,16 @@
+.card{
+    margin-top: 2%;
+}
+ 
+  @media (max-width: 800px) {
+    .card-conh {
+        font-size: 3.5vw;
+        color: #e20001;
+        margin-bottom: -15px;
+      }
+      .card-des{
+        display: none;
+        font-size: 2.5vw;
+      }
+  }
+ 

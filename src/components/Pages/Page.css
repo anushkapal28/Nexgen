@@ -1,0 +1,63 @@
+.page {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    font-family: 'Albert Sans', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .page .description-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page .title {
+    font-size: 2.5vw;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 15vh;
+  }
+  
+  .page .image {
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: auto; 
+    width: 30vw; 
+  }
+  .page .description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .page .back-link {
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .page .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page .title {
+      font-size: 5vw; 
+      padding-top: 10vh; 
+    }
+    .page .image {
+        width: 55vw; 
+      }
+    .page .description-container {
+      padding: 10px;
+    }
+  
+    .page .description {
+      font-size: 16px; 
+    }
+  }
+  

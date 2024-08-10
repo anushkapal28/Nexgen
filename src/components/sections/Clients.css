@@ -1,0 +1,119 @@
+/* Cards container */
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 36px 20px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);;
+  }
+  
+  /* Left card */
+  .left-card {
+    width: 50%;
+    background-color: #004D43;
+    height: 55vh;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .left-card svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .left-card button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    border: 1px solid #CDEA68;
+    padding: 0.7rem;
+    font-size: 1.10rem;
+    width: 17%;
+    border-radius: 50%;
+    color: #CDEA68;
+    font-family: "Neue_Montreal";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Right card container */
+  .right-card-container {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Right cards */
+  .right-card {
+    width: 50%;
+    background-color: #212121;
+    height: 55vh;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .right-card svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .right-card button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    border: 1px solid #CDEA68;
+    padding: 0.7rem;
+    font-size: 1.10rem;
+    width: 53%;
+    border-radius: 50%;
+    color: #CDEA68;
+    font-family: "Neue_Montreal";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Right card with image */
+  .right-card-with-image {
+    width: 50%;
+    background-color: #212121;
+    height: 55vh;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .right-card-with-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .right-card-with-image button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    border: 1px solid #CDEA68;
+    padding: 0.7rem;
+    font-size: 1.10rem;
+    width: 68%;
+    border-radius: 50%;
+    color: #CDEA68;
+    font-family: "Neue_Montreal";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  @media (max-width: 800px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+      }
+}
